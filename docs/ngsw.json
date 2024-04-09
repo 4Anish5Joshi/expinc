@@ -1,0 +1,95 @@
+{
+  "configVersion": 1,
+  "timestamp": 1712670665001,
+  "index": "/expinc/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/expinc/467.fbc05c06608f9e14.js",
+        "/expinc/863.a2db62d0ed7dd8b6.js",
+        "/expinc/common.72106c7f3980f7da.js",
+        "/expinc/favicon.ico",
+        "/expinc/index.html",
+        "/expinc/main.618798f6a6cc272a.js",
+        "/expinc/manifest.webmanifest",
+        "/expinc/polyfills.d2d09b7e510c3d38.js",
+        "/expinc/runtime.d3cf946cdc24683d.js",
+        "/expinc/styles.dfc9c5bd9e78f157.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/expinc/assets/Logo.png",
+        "/expinc/assets/exp.png",
+        "/expinc/assets/icons/icon-128x128.png",
+        "/expinc/assets/icons/icon-144x144.png",
+        "/expinc/assets/icons/icon-152x152.png",
+        "/expinc/assets/icons/icon-192x192.png",
+        "/expinc/assets/icons/icon-384x384.png",
+        "/expinc/assets/icons/icon-512x512.png",
+        "/expinc/assets/icons/icon-72x72.png",
+        "/expinc/assets/icons/icon-96x96.png",
+        "/expinc/assets/inc.svg",
+        "/expinc/assets/spending.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/expinc/467.fbc05c06608f9e14.js": "df7993644032046b8bd3c0973e93a95ef000d06b",
+    "/expinc/863.a2db62d0ed7dd8b6.js": "1ce95b39a8986c2062435523899b1bf6d506af81",
+    "/expinc/assets/Logo.png": "bbd8b6bf317d8a3fac80e3f64b96e47b9330ea36",
+    "/expinc/assets/exp.png": "1b8fb1747de997dc8699466d3024bc00ef3e88ef",
+    "/expinc/assets/icons/icon-128x128.png": "1eaec8d344b2caea41048d52dc95ad1e0cd5241b",
+    "/expinc/assets/icons/icon-144x144.png": "5eec1ac07328c15dce9e6c3910c7abc1b7e257a4",
+    "/expinc/assets/icons/icon-152x152.png": "ad5729047dc1b88042f72f2af7c7513b4b62f9bb",
+    "/expinc/assets/icons/icon-192x192.png": "c256c7e7d64abe3af86c7166f0b478d6cb03670a",
+    "/expinc/assets/icons/icon-384x384.png": "efece921167de922a0b466bf5da4090eddea3906",
+    "/expinc/assets/icons/icon-512x512.png": "a161f6025a5ccd8dbd145d8d0e79f6270313f79d",
+    "/expinc/assets/icons/icon-72x72.png": "84d770ea44bed2433abd4d61782c502ffa764814",
+    "/expinc/assets/icons/icon-96x96.png": "6b72f58f7fb23085bc4185d1aaf862a349698d4d",
+    "/expinc/assets/inc.svg": "4fc86bb4392938e453bffc9ffb0ec212cace7384",
+    "/expinc/assets/spending.png": "c7127139e06830258a7e2a462d7000abbf72570e",
+    "/expinc/common.72106c7f3980f7da.js": "d47e371d787883f49fe6aa0a5b3aba4208603e97",
+    "/expinc/favicon.ico": "1b8fb1747de997dc8699466d3024bc00ef3e88ef",
+    "/expinc/index.html": "400c660d748cff07b4b8c3e4576b12ba0aedb6ac",
+    "/expinc/main.618798f6a6cc272a.js": "84201ccb6f0a5202cf0eef6c81dee778c31e07d3",
+    "/expinc/manifest.webmanifest": "036d0527dc2b02b6883a6e00d88922e871f558c5",
+    "/expinc/polyfills.d2d09b7e510c3d38.js": "c9c82e777830c9a73c216c766a6f36e6972ab2bf",
+    "/expinc/runtime.d3cf946cdc24683d.js": "781a8746095f49cb8c9e5bce3832a2d320e7e8d6",
+    "/expinc/styles.dfc9c5bd9e78f157.css": "fb5af883326dbc965c14c67adbb2e40520b8adce"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
